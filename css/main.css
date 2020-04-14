@@ -1,0 +1,48 @@
+/* GENERAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #8b959e;
+}
+
+a:hover {
+    color: #191c1f;
+}
+
+/* UTILITIES */
+.flex {
+    display: flex;
+}
+
+/* LAYOUT */
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 120px;
+}
+
+.dropdown {
+    display: none;
+}
+
+
+
+/*#191C1F
+#EB008D
+#8B959E*/
