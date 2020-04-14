@@ -11,7 +11,6 @@ body {
 
 ul {
     list-style: none;
-    align-items: center;
 }
 
 a {
@@ -26,6 +25,10 @@ a:hover {
 /* UTILITIES */
 .flex {
     display: flex;
+}
+
+.selected {
+    color: #191c1f;
 }
 
 /* LAYOUT */
@@ -60,6 +63,7 @@ header {
 }
 
 .dropdown-menu {
+    display: none;
     position: absolute;
     top: 30px;
     left: -50%;

@@ -1,8 +1,12 @@
 $(document).ready( function(){
     var dropdown = $('.dropdown a');
+    
 
     dropdown.click(function() {
-        $(this).next('.dropdown-menu').toggle();
+        var item = $(this);
+        item.next('.dropdown-menu').toggle();
+        item.toggleClass('selected');
+        
     });
 
 
