@@ -88,3 +88,13 @@ header {
     background: #EB008D;
     color: #FFF;
 }
+
+.language + i {
+    color: #8b959e;
+    font-size: .7em;
+    vertical-align: bottom;
+}
+
+.language:hover + i {
+    color: #191c1f;
+}
