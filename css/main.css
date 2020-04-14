@@ -25,6 +25,7 @@ a:hover {
 /* UTILITIES */
 .flex {
     display: flex;
+    align-items: center;
 }
 
 .selected {
@@ -56,6 +57,7 @@ header {
 
 .right-nav > ul > li {
     margin-left: 36px;
+
 }
 
 .dropdown {
