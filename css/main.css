@@ -11,6 +11,7 @@ body {
 
 ul {
     list-style: none;
+    align-items: center;
 }
 
 a {
@@ -29,20 +30,38 @@ a:hover {
 
 /* LAYOUT */
 .container {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
+header {
+    padding: 70px 0;
+}
+
 .logo img {
-    max-width: 120px;
+    max-width: 100px;
+}
+
+.left-nav {
+    flex-grow: 1;
+    margin-left: 36px;
+}
+
+.left-nav ul li {
+    margin-right: 36px;
+}
+
+.right-nav ul li {
+    margin-left: 36px;
 }
 
 .dropdown {
     display: none;
 }
 
-
-
-/*#191C1F
-#EB008D
-#8B959E*/
+.download-btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #EB008D;
+    color: #FFF;
+}
