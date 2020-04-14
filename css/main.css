@@ -51,12 +51,31 @@ header {
     margin-right: 36px;
 }
 
-.right-nav ul li {
+.right-nav > ul > li {
     margin-left: 36px;
 }
 
 .dropdown {
-    display: none;
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 30px;
+    left: -50%;
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, .1);
+    line-height: 46px;
+    width: max-content;
+}
+
+.superscript {
+    position: relative;
+    top: -.8em;
+    font-size: .8em;
+    color: #EB008D;
+    vertical-align: top;
 }
 
 .download-btn {
