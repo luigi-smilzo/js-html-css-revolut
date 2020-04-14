@@ -5,7 +5,12 @@ $(document).ready( function(){
     // EVENTS
     dropdown.click(function() {
         var item = $(this);
-        item.next('.dropdown-menu').toggle();
+        var actualMenu = item.next('.dropdown-menu');
+
+        dropdown.next().not(actualMenu).hide();
+        dropdown.not(item).removeClass('selected');
+
+        actualMenu.toggle();
         item.toggleClass('selected');
     });
 
